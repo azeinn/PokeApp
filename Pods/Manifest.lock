@@ -1,30 +1,43 @@
 PODS:
   - Alamofire (5.4.0)
-  - RxCocoa (5.1.1):
-    - RxRelay (~> 5)
-    - RxSwift (~> 5)
+  - AlamofireImage (4.1.0):
+    - Alamofire (~> 5.1)
+  - Realm (10.1.2):
+    - Realm/Headers (= 10.1.2)
+  - Realm/Headers (10.1.2)
+  - RealmSwift (10.1.2):
+    - Realm (= 10.1.2)
   - RxRelay (5.1.1):
     - RxSwift (~> 5)
   - RxSwift (5.1.1)
+  - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
-  - Alamofire
-  - RxCocoa
+  - AlamofireImage
+  - RealmSwift
+  - RxRelay
   - RxSwift
+  - SVProgressHUD
 
 SPEC REPOS:
   trunk:
     - Alamofire
-    - RxCocoa
+    - AlamofireImage
+    - Realm
+    - RealmSwift
     - RxRelay
     - RxSwift
+    - SVProgressHUD
 
 SPEC CHECKSUMS:
   Alamofire: 3b6a534a3df22db367e4dedeeca73d1ddfcf0e2f
-  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  AlamofireImage: c4a2ba349885fb3064feb74d2e547bd42ce9be10
+  Realm: 031fdd4be7094d01b43af1a5e49766ab644bb800
+  RealmSwift: 43cf2e114baa9d17d34eb81e7d0def31f21cd444
   RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
   RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: 0b7c0cc5105b6315bd60d6ed5d2f27d03cd0305b
+PODFILE CHECKSUM: 644b0d57c8b20254386ff30bc0f74201d373bedc
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.10.0
